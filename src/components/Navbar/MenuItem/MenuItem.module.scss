@@ -1,0 +1,64 @@
+@use "../../../styles/colors.module.scss" as *;
+@use "../../../styles/fonts.module.scss" as *;
+
+.MenuItem {
+    $menu-item-underline-thickness: 4px;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-block: 1rem;
+
+    font-size: 1.75rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    &::after{
+        content: "";
+        position: absolute;
+        
+        background-color: $color-accent;
+        left: 0;
+        bottom: 6px;
+        right: 0;
+        
+        height: $menu-item-underline-thickness;
+        
+        transform-origin: center;
+        animation: shrink 0.25s ease forwards;
+    }
+}
+
+.selected::after {
+    animation: grow 0.25s ease-in-out forwards;
+}
+
+@keyframes shrink {
+    0% {
+        transform: scaleX(1);
+    }
+    100% {
+        transform: scaleX(0);
+    }
+}
+
+@keyframes grow {
+    0%{
+        transform: scaleX(0);
+    }
+    90%{
+        transform: scaleX(1.05)
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}

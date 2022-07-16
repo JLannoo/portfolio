@@ -1,0 +1,25 @@
+@use "../../../styles/colors.module.scss" as *;
+@use "../../../styles/fonts.module.scss" as *;
+
+.Logo {
+    $size-logo: 175px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+
+    img {
+        max-width: $size-logo;
+        border-radius: 50%;
+    }
+
+    h1 {
+        color: $color-navbar-text;
+        font-family: $font-family-navbar;
+        font-weight: 100;
+        font-size: 3rem;
+        margin: 0;
+    }
+}

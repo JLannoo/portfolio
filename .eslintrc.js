@@ -20,7 +20,8 @@ module.exports = {
 		'require-jsdoc': 'off',
 		'linebreak-style': ['error', 'unix'],
 		'object-curly-spacing': ['error', 'always'],
-		'max-len': ['error', { 'code': 120 }],
+		'max-len': ['error', { 'code': 150 }],
+		'spaced-comment': 'off',
 	},
 
 };
