@@ -12,7 +12,11 @@
 
     a {
         color: $color-navbar-text;
-        transition: color 0.2s ease-in-out;
+        
+        transition: 
+            color 0.2s ease-in-out,
+            filter 0.2s ease-in-out;
+
         &:hover {
             color: $color-accent;
             filter: brightness(2);
