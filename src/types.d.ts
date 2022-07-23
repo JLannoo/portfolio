@@ -8,3 +8,8 @@ export interface MenuItemProps {
 export interface ThemeProviderProps {
     children: React.ReactNode;
 }
+
+export interface Skill {
+    name: string;
+    image: string;
+}
