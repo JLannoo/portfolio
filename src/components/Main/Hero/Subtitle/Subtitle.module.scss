@@ -1,0 +1,21 @@
+@use "../../../../styles/colors.module.scss" as *;
+
+.Subtitle {
+    position: relative;
+    color: $color-accent;
+
+    font-size: 3rem;
+    font-weight: 400;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+
+    &::after{
+        content: "_";
+        animation: blink 1s step-start infinite;
+    }
+
+    @keyframes blink {
+        50% {
+            opacity: 0;
+        }
+    }
+}

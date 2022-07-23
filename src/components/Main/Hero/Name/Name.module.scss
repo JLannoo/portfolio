@@ -1,0 +1,11 @@
+@use "../../../../styles/colors.module.scss" as *;
+
+.Name {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2;
+
+    margin: 0;
+
+    text-shadow: 3.5px 3.5px 0 $color-accent;
+}
