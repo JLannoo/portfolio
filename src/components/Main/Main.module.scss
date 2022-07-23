@@ -1,5 +1,6 @@
 @use "../Navbar/Navbar.module.scss" as Navbar;
 @use "../../styles/breakpoints.module.scss" as Breakpoints;
+@use "../../styles/fonts.module.scss" as Fonts;
 
 .Main {
     display: flex;
@@ -8,6 +9,8 @@
     justify-content: center;
 
     position: relative;
+
+    font-family: Fonts.$font-family-content;
     
     right: 0;
 
