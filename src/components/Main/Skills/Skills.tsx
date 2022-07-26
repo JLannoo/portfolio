@@ -8,20 +8,24 @@ import Decorations from './Decorations/Decorations';
 export default function Skills() {
 	const skillList:SkillType[] = [
 		{
-			name: 'JavaScript',
-			image: './skills/javascript.png',
-		},
-		{
 			name: 'TypeScript',
 			image: './skills/typescript.png',
+		},
+		{
+			name: 'Next.js',
+			image: './skills/next.png',
+		},
+		{
+			name: 'Node.js',
+			image: './skills/node.png',
 		},
 		{
 			name: 'React',
 			image: './skills/react.png',
 		},
 		{
-			name: 'Next.js',
-			image: './skills/next.png',
+			name: 'MySQL',
+			image: './skills/mysql.png',
 		},
 		{
 			name: 'PHP',
@@ -32,12 +36,8 @@ export default function Skills() {
 			image: './skills/laravel.png',
 		},
 		{
-			name: 'MySQL',
-			image: './skills/mysql.png',
-		},
-		{
-			name: 'Node.js',
-			image: './skills/node.png',
+			name: 'Python',
+			image: './skills/python.png',
 		},
 		{
 			name: 'Websockets',
