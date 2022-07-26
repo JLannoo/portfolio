@@ -3,7 +3,7 @@ import css from './AboutMe.module.scss';
 
 export default function AboutMe() {
 	return (
-		<div className={css.AboutMe} id="about">
+		<section className={css.AboutMe} id="about">
 			<h1 className={css.Title}>About Me</h1>
 			<div className={css.Text}>
 				<p>
@@ -17,6 +17,6 @@ export default function AboutMe() {
 					numquam voluptas cupiditate aliquam ad exercitationem, atque laboriosam nam magnam?
 				</p>
 			</div>
-		</div>
+		</section>
 	);
 }

@@ -70,7 +70,7 @@ export default function Skills() {
 	];
 
 	return (
-		<div className={css.Skills}>
+		<section className={css.Skills}>
 			<Decorations />
 			<h1 className={css.Title}>
                 Skills
@@ -80,6 +80,6 @@ export default function Skills() {
 					<Skill key={skill.name} skill={skill} />
 				))}
 			</div>
-		</div>
+		</section>
 	);
 }

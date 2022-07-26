@@ -7,10 +7,10 @@ import Subtitle from './Subtitle/Subtitle';
 
 export default function Hero() {
 	return (
-		<div className={css.Hero}>
+		<section className={css.Hero}>
 			{/* <Background /> */}
 			<Name />
 			<Subtitle />
-		</div>
+		</section>
 	);
 }
