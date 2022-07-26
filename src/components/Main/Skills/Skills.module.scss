@@ -12,6 +12,7 @@
     
     position: relative;
     padding: 3rem;
+    padding-bottom: 4rem;
 
     overflow: hidden;
     box-sizing: border-box;
@@ -19,10 +20,16 @@
 
 .Title {
     font-size: 2.5rem;
+    margin-top: 0;
 }
 
 .Skills__container {
-    display: grid;
-    grid-template-columns: repeat(4 , 1fr);
-    gap: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    max-width: 800px;
+
+    gap: 2.5rem;
 }

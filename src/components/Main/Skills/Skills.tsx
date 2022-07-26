@@ -8,64 +8,64 @@ import Decorations from './Decorations/Decorations';
 export default function Skills() {
 	const skillList:SkillType[] = [
 		{
-			name: 'HTML',
-			image: 'html.png',
-		},
-		{
-			name: 'CSS',
-			image: 'css.png',
-		},
-		{
 			name: 'JavaScript',
-			image: 'javascript.png',
+			image: './skills/javascript.png',
 		},
 		{
 			name: 'TypeScript',
-			image: 'typescript.png',
+			image: './skills/typescript.png',
 		},
 		{
 			name: 'React',
-			image: 'react.png',
+			image: './skills/react.png',
 		},
 		{
 			name: 'Next.js',
-			image: 'next.png',
+			image: './skills/next.png',
 		},
 		{
 			name: 'PHP',
-			image: 'php.png',
+			image: './skills/php.png',
 		},
 		{
 			name: 'Laravel',
-			image: 'laravel.png',
+			image: './skills/laravel.png',
 		},
 		{
 			name: 'MySQL',
-			image: 'mysql.png',
+			image: './skills/mysql.png',
 		},
 		{
 			name: 'Node.js',
-			image: 'nodejs.png',
-		},
-		{
-			name: 'Express',
-			image: 'express.png',
+			image: './skills/node.png',
 		},
 		{
 			name: 'Websockets',
-			image: 'websockets.png',
+			image: './skills/websockets.png',
 		},
 		{
 			name: 'Linux',
-			image: 'linux.png',
+			image: './skills/linux.png',
+		},
+		{
+			name: 'Nginx',
+			image: './skills/nginx.png',
+		},
+		{
+			name: 'Apache',
+			image: './skills/apache.png',
+		},
+		{
+			name: 'Docker',
+			image: './skills/docker.png',
 		},
 		{
 			name: 'Git',
-			image: 'git.png',
+			image: './skills/git.png',
 		},
 		{
 			name: 'Github Actions',
-			image: 'github-actions.png',
+			image: './skills/github-actions.png',
 		},
 	];
 
@@ -76,8 +76,8 @@ export default function Skills() {
                 Skills
 			</h1>
 			<div className={css.Skills__container}>
-				{skillList.map((skill, index) => (
-					<Skill key={index} skill={skill} />
+				{skillList.map((skill) => (
+					<Skill key={skill.name} skill={skill} />
 				))}
 			</div>
 		</div>
