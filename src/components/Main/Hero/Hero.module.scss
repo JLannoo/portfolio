@@ -2,6 +2,8 @@
 @use "../../../styles/colors.module.scss" as *;
 
 .Hero {
+    position: relative;
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;

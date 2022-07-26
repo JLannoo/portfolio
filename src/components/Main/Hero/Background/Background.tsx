@@ -1,39 +1,58 @@
 import React from 'react';
 import css from './Background.module.scss';
 
-import Sketch from 'react-p5';
-import p5Types from 'p5';
-
-import { useMainSize } from '../../../../hooks/useMainSize';
+import Particles from 'react-tsparticles';
+import { loadFull } from 'tsparticles';
 
 export default function Background() {
-	const { width } = useMainSize();
-	const height = document.body.clientHeight;
+	const particlesInit = async (main: any) => {
+		await loadFull(main);
+	};
 
-	const [canvas, setCanvas] = React.useState<p5Types>();
-
-	function windowResized(p5: p5Types) {
-		p5.resizeCanvas(width ?? 0, height);
-	}
-
-	function setup(p5: p5Types, canvasParentRef: Element) {
-		p5.createCanvas(width ?? 0, height / 2 ?? 0).parent(canvasParentRef);
-		setCanvas(p5);
-	}
-
-	function draw(p5: p5Types) {
-		p5.background('#FFF');
-		p5.fill('#000');
-		p5.ellipse(p5.mouseX, p5.mouseY, 10, 10);
-	}
-
-	React.useEffect(() => {
-		return () => {
-			canvas?.remove();
-		};
-	});
+	const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 	return (
-		<Sketch setup={setup} draw={draw} className={css.Background} windowResized={windowResized}/>
+		<div className={css.Background}>
+			{reducedMotion ?
+				null :
+				<Particles
+					id="tsparticles"
+					init={particlesInit}
+					width="100%"
+					height="700px"
+					options={{
+						fullScreen: false,
+						backgroundMode: true,
+						background: {
+							color: {
+								value: '#fff',
+							},
+						},
+						particles: {
+							color: {
+								value: '#ccc',
+							},
+							links: {
+								color: '#ccc',
+								distance: 150,
+								enable: true,
+							},
+							number: {
+								value: 75,
+							},
+							move: {
+								direction: 'none',
+								enable: true,
+								speed: 0.5,
+							},
+							size: {
+								value: 6,
+								random: true,
+							},
+						},
+					}}
+				/>
+			}
+		</div>
 	);
 }
