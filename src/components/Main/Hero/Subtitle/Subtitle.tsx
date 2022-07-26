@@ -2,19 +2,21 @@ import React from 'react';
 import css from './Subtitle.module.scss';
 
 export default function Subtitle() {
-	const string = 'Fullstack Developer';
+	const string = 'Fullstack Web Developer';
 	const [text, setText] = React.useState('');
 
 	React.useEffect(() => {
 		const interval = setInterval(() => {
-			if (text !== string) {
+			if (text.length < string.length) {
 				setText(text + string[text.length]);
 			} else {
 				clearInterval(interval);
 			}
 		}, 150);
 
-		return () => clearInterval(interval);
+		return () => {
+			clearInterval(interval);
+		};
 	}, [text]);
 
 	return (
