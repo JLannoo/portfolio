@@ -7,14 +7,14 @@ export default function AboutMe() {
 			<h1 className={css.Title}>About Me</h1>
 			<div className={css.Text}>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro id, in quasi molestiae voluptas mollitia,
-					sed illo iusto obcaecati nesciunt sequi architecto assumenda ad quae laboriosam? Inventore, vero cupiditate
-					aut debitis eveniet est rem, eligendi, repudiandae ea corporis distinctio? Fuga illum et sunt? Alias, rem commodi?
-					Omnis ullam officia adipisci.
+					I am a developer from Argentina.
+					Currently studying Information Systems Engineering at UTN FRRo.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo necessitatibus
-					numquam voluptas cupiditate aliquam ad exercitationem, atque laboriosam nam magnam?
+					I work at a Digital Strategy company, building websites and web applications to improve brand image, sales and online presence.
+				</p>
+				<p>
+					I am used to working in a well communicated team and jumping between multiple concurrent projects for different clients.
 				</p>
 			</div>
 		</section>
