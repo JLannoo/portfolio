@@ -72,9 +72,9 @@ export default function Skills() {
 	return (
 		<section className={css.Skills}>
 			<Decorations />
-			<h1 className={css.Title}>
+			<h2 className={css.Title}>
                 Skills
-			</h1>
+			</h2>
 			<div className={css.Skills__container}>
 				{skillList.map((skill) => (
 					<Skill key={skill.name} skill={skill} />

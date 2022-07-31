@@ -4,7 +4,7 @@ import css from './AboutMe.module.scss';
 export default function AboutMe() {
 	return (
 		<section className={css.AboutMe} id="about">
-			<h1 className={css.Title}>About Me</h1>
+			<h2 className={css.Title}>About Me</h2>
 			<div className={css.Text}>
 				<p>
 					I am a developer from Argentina.
