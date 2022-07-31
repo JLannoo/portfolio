@@ -1,0 +1,26 @@
+.Project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 400px;
+
+    background-color: white;
+    border-radius: 1rem;
+
+    padding: 1.5rem;
+
+    $box-shadow: 0.25rem 0.25rem 0.5rem 0.3rem;
+    box-shadow: $box-shadow rgba(0, 0, 0, 0.15);
+
+    $timing-function: 0.2s ease-in-out;
+    transition: 
+        transform $timing-function,
+        box-shadow $timing-function;
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: $box-shadow rgba(0, 0, 0, 0.25);
+    }
+}
