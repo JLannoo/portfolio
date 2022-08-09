@@ -1,8 +1,8 @@
 import React from 'react';
 import css from './Socials.module.scss';
 
-import Linkedin from '@mui/icons-material/LinkedIn';
-import Github from '@mui/icons-material/GitHub';
+import { ReactComponent as Github } from '../../../assets/github.svg';
+import { ReactComponent as Linkedin } from '../../../assets/linkedin.svg';
 
 export default function Socials() {
 	return (

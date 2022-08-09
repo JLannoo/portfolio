@@ -12,6 +12,7 @@
 
     a {
         color: $color-navbar-text;
+        fill: $color-navbar-text;
         
         transition: 
             color 0.2s ease-in-out,
@@ -21,7 +22,7 @@
             color: $color-accent;
             filter: brightness(2);
         }
-
+        
         svg {
             font-size: 2rem;
         }

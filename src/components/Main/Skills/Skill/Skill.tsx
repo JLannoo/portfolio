@@ -3,7 +3,7 @@ import css from './Skill.module.scss';
 
 import type { Skill as SkillType } from '../../../../types';
 
-import { BrokenImage } from '@mui/icons-material';
+import { ReactComponent as BrokenImage } from '/src/assets/brokenImage.svg';
 
 export default function Skill({ skill }: { skill: SkillType }) {
 	const [errored, setErrored] = React.useState(false);
