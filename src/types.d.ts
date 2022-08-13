@@ -19,8 +19,12 @@ export interface Skill {
 export interface Project {
     title: string;
     image: string;
+    summary: string;
     description: string;
-    github_link: string;
-    website_link: string;
-    skills: Skill[];
+    links: Link[];
+}
+
+export interface Link {
+    name: string;
+    link: string;
 }

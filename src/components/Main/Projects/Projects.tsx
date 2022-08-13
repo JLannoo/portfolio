@@ -8,40 +8,53 @@ export default function Projects() {
 	const projects: ProjectType[] = [
 		{
 			title: 'Project 1',
-			description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore porro ad, et saepe atque blanditiis.',
-			github_link: '',
-			website_link: '',
-			image: '',
-			skills: [],
+			summary: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore porro ad, et saepe atque blanditiis.',
+			description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet esse numquam accusantium architecto, 
+			ad repellat modi vero maxime vel dignissimos mollitia tenetur iure dolor labore molestiae libero? Praesentium voluptatem 
+			sed ad autem harum, quisquam molestias illum, id beatae maxime molestiae?`,
+			image: '/src/assets/projects/portfolio.png',
+			links: [
+				{ name: 'Github', link: 'https://github.com' },
+				{ name: 'Website', link: 'https://locahost:3000' },
+			],
 		},
 		{
 			title: 'Project 2',
-			description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore porro ad, et saepe atque blanditiis.',
-			github_link: '',
-			website_link: '',
-			image: '',
-			skills: [],
+			summary: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore porro ad, et saepe atque blanditiis.',
+			description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet esse numquam accusantium architecto, 
+			ad repellat modi vero maxime vel dignissimos mollitia tenetur iure dolor labore molestiae libero? Praesentium voluptatem 
+			sed ad autem harum, quisquam molestias illum, id beatae maxime molestiae?`,
+			image: '/src/assets/projects/portfolio.png',
+			links: [
+				{ name: 'Website', link: 'https://locahost:3000' },
+			],
 		},
 		{
 			title: 'Project 3',
-			description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore porro ad, et saepe atque blanditiis.',
-			github_link: '',
-			website_link: '',
-			image: '',
-			skills: [],
+			summary: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore porro ad, et saepe atque blanditiis.',
+			description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet esse numquam accusantium architecto, 
+			ad repellat modi vero maxime vel dignissimos mollitia tenetur iure dolor labore molestiae libero? Praesentium voluptatem 
+			sed ad autem harum, quisquam molestias illum, id beatae maxime molestiae?`,
+			image: '/src/assets/projects/portfolio.png',
+			links: [
+			],
 		},
 		{
 			title: 'Project 4',
-			description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore porro ad, et saepe atque blanditiis.',
-			github_link: '',
-			website_link: '',
-			image: '',
-			skills: [],
+			summary: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore porro ad, et saepe atque blanditiis.',
+			description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet esse numquam accusantium architecto, 
+			ad repellat modi vero maxime vel dignissimos mollitia tenetur iure dolor labore molestiae libero? Praesentium voluptatem 
+			sed ad autem harum, quisquam molestias illum, id beatae maxime molestiae?`,
+			image: '/src/assets/projects/portfolio.png',
+			links: [
+				{ name: 'Github', link: 'https://github.com' },
+				{ name: 'Website', link: 'https://locahost:3000' },
+			],
 		},
 	];
 
 	return (
-		<section className={css.Projects}>
+		<section className={css.Projects} id="projects">
 			<div className={css.ShadowParent}>
 				<h2 className={css.Title}>
                     Projects

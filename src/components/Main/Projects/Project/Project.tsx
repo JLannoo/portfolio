@@ -2,32 +2,38 @@ import React from 'react';
 import css from './Project.module.scss';
 
 import { Project as ProjectType } from '../../../../types';
+import LinkButton from './LinkButton/LinkButton';
+
+import useModal from '../../../../hooks/useModal';
 
 export default function Project({ project }: { project: ProjectType }) {
-	const [coords, setCoords] = React.useState({ x: 0, y: 0 });
-
-	const handleMouseMove = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-		setCoords({
-			x: e.clientX - Math.floor(e.currentTarget.getBoundingClientRect().left),
-			y: e.clientY - Math.floor(e.currentTarget.getBoundingClientRect().top),
-		});
-	};
+	const { Modal, isOpen, open, close } = useModal();
 
 	return (
-		<div className={css.Project}
-			onMouseMove={handleMouseMove}
-			data-x={coords.x.toString()}
-			data-y={coords.y.toString()}
-		>
-			<div className={css.Project__image}>
-				<img src={project.image} alt={project.title} />
+		<>
+			<div className={css.Project}>
+				<div className={css.Project__image} onClick={open}>
+					<img src={project.image} alt={project.title} />
+				</div>
+				<div className={css.Project__info}>
+					<div className={css.Project__info__title}>
+						<h3>{project.title}</h3>
+					</div>
+					<div className={css.Project__info__description}>
+						<p>{project.summary}</p>
+					</div>
+				</div>
+				<div className={css.Project__links}>
+					{project.links.map((link, index) => (
+						<LinkButton key={index} link={link} />
+					))}
+				</div>
 			</div>
-			<div className={css.Project__title}>
-				<h3>{project.title}</h3>
-			</div>
-			<div className={css.Project__description}>
-				<p>{project.description}</p>
-			</div>
-		</div>
+
+			{/* Modal for showing project details */}
+			<Modal isOpen={isOpen} close={close}>
+				hola
+			</Modal>
+		</>
 	);
 }

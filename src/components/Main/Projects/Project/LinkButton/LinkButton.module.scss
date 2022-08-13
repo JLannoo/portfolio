@@ -1,0 +1,41 @@
+@use "/src/styles/colors.module.scss" as *;
+
+.LinkButton {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0.5rem;
+
+    font-size: 2rem;
+    
+    transition: 
+        background-color 0.2s ease-in-out,
+        filter 0.2s ease-in-out;
+
+    a {
+        color: black;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background-color: $color-accent;
+        filter: brightness(1.75);
+    }
+}
+
+.LinkButton + .LinkButton {
+    &::before {
+        content: "";
+        position: absolute;
+        left: -1px;
+
+        width: 2px;
+        height: 70%;
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+}
