@@ -80,6 +80,9 @@ export default function Skills() {
 					<Skill key={skill.name} skill={skill} />
 				))}
 			</div>
+			<p className={css.Skills__comment}>
+				(These are skills that I have used in a profesional environment or in projects during my higher education)
+			</p>
 		</section>
 	);
 }
