@@ -11,6 +11,12 @@ export interface ThemeProviderProps {
     children: React.ReactNode;
 }
 
+export interface Client {
+    name: string;
+    image: string;
+    link: string;
+}
+
 export interface Skill {
     name: string;
     image: string;
