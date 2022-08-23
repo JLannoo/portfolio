@@ -1,0 +1,49 @@
+@use "/src/styles/colors.module.scss" as *;
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+
+    gap: 1rem;
+}
+
+.Button {
+    border: none;
+    outline: none;
+    border-radius: 100vw;
+
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+
+    background-color: $color-accent-secondary;
+    
+    color: white;
+    font-family: inherit;
+    font-size: 1.5rem;
+
+    transition: 
+        filter 0.2s ease-in-out,
+        background-color 0.2s ease-in-out;
+
+    &:hover {
+        filter: brightness(0.8);
+        cursor: pointer;
+    }
+
+    &:active {
+        filter: brightness(0.5);
+    }
+
+    &:disabled {
+        pointer-events: none;
+    }
+
+}
+
+.Success {
+    background-color: #24d854;
+}
