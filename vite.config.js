@@ -8,7 +8,6 @@ export default defineConfig({
 	// comment this out if that isn't relevant for your project
 	build: {
 		outDir: 'build',
-		assetsDir: 'src/assets',
 	},
 	server: {
 		host: 'localhost',

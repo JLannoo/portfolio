@@ -8,17 +8,17 @@ export default function Clients() {
 	const clients: Client[] = [
 		{
 			name: 'WD40',
-			image: '/src/assets/clients/wd40.png',
+			image: '/clients/wd40.png',
 			link: 'https://www.wd40.com/',
 		},
 		{
 			name: 'John Deere',
-			image: '/src/assets/clients/jd.png',
+			image: '/clients/jd.png',
 			link: 'https://www.deere.com/',
 		},
 		{
 			name: 'Corteva',
-			image: '/src/assets/clients/corteva.png',
+			image: '/clients/corteva.png',
 			link: 'https://www.corteva.com/',
 		},
 	];

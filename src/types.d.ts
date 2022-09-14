@@ -27,7 +27,9 @@ export interface Project {
     image: string;
     summary: string;
     description: string;
+    responsibilities: string[];
     links: Link[];
+    WIP?: boolean;
 }
 
 export interface Link {

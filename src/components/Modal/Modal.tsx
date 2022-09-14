@@ -9,6 +9,19 @@ interface ModalProps {
 }
 
 export default function Modal({ children, isOpen, close }: ModalProps) {
+	// disable scroll of body when modal is open
+	React.useEffect(() => {
+		if (isOpen) {
+			document.body.style.overflow = 'hidden';
+		} else {
+			document.body.style.overflow = 'unset';
+		}
+
+		return () => {
+			document.body.style.overflow = 'unset';
+		};
+	}, [isOpen]);
+
 	return (
 		isOpen ? createPortal(
 			<>
@@ -20,7 +33,7 @@ export default function Modal({ children, isOpen, close }: ModalProps) {
 								<span>&times;</span>
 							</div>
 						</div>
-						<div className={css.Modal__content_body}>
+						<div className={css.Modal__content__body}>
 							{children}
 						</div>
 					</div>

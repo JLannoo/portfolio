@@ -3,6 +3,7 @@ import css from './Project.module.scss';
 
 import { Project as ProjectType } from '../../../../types';
 import LinkButton from './LinkButton/LinkButton';
+import ProjectModal from './ProjectModal/ProjectModal';
 
 import useModal from '../../../../hooks/useModal';
 
@@ -24,15 +25,18 @@ export default function Project({ project }: { project: ProjectType }) {
 					</div>
 				</div>
 				<div className={css.Project__links}>
-					{project.links.map((link, index) => (
-						<LinkButton key={index} link={link} />
-					))}
+					{project.WIP ?
+						<p>Work in progress</p> :
+						project.links.map((link, index) => (
+							<LinkButton key={index} link={link} />
+						))
+					}
 				</div>
 			</div>
 
 			{/* Modal for showing project details */}
 			<Modal isOpen={isOpen} close={close}>
-				hola
+				<ProjectModal project={project}/>
 			</Modal>
 		</>
 	);

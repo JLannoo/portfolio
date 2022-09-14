@@ -9,63 +9,63 @@ export default function Skills() {
 	const skillList:SkillType[] = [
 		{
 			name: 'TypeScript',
-			image: '/src/assets/skills/typescript.png',
+			image: '/skills/typescript.png',
 		},
 		{
 			name: 'Next.js',
-			image: '/src/assets/skills/next.png',
+			image: '/skills/next.png',
 		},
 		{
 			name: 'Node.js',
-			image: '/src/assets/skills/node.png',
+			image: '/skills/node.png',
 		},
 		{
 			name: 'React',
-			image: '/src/assets/skills/react.png',
+			image: '/skills/react.png',
 		},
 		{
 			name: 'MySQL',
-			image: '/src/assets/skills/mysql.png',
+			image: '/skills/mysql.png',
 		},
 		{
 			name: 'PHP',
-			image: '/src/assets/skills/php.png',
+			image: '/skills/php.png',
 		},
 		{
 			name: 'Laravel',
-			image: '/src/assets/skills/laravel.png',
+			image: '/skills/laravel.png',
 		},
 		{
 			name: 'Python',
-			image: '/src/assets/skills/python.png',
+			image: '/skills/python.png',
 		},
 		{
 			name: 'Websockets',
-			image: '/src/assets/skills/websockets.png',
+			image: '/skills/websockets.png',
 		},
 		{
 			name: 'Linux',
-			image: '/src/assets/skills/linux.png',
+			image: '/skills/linux.png',
 		},
 		{
 			name: 'Nginx',
-			image: '/src/assets/skills/nginx.png',
+			image: '/skills/nginx.png',
 		},
 		{
 			name: 'Apache',
-			image: '/src/assets/skills/apache.png',
+			image: '/skills/apache.png',
 		},
 		{
 			name: 'Docker',
-			image: '/src/assets/skills/docker.png',
+			image: '/skills/docker.png',
 		},
 		{
 			name: 'Git',
-			image: '/src/assets/skills/git.png',
+			image: '/skills/git.png',
 		},
 		{
 			name: 'Github Actions',
-			image: '/src/assets/skills/github-actions.png',
+			image: '/skills/github-actions.png',
 		},
 	];
 

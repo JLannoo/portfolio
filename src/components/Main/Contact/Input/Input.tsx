@@ -9,7 +9,7 @@ interface InputProps {
 export default function Input({ label, props }: InputProps) {
 	return (
 		<div className={css.InputContainer}>
-			{label && <label className={css.Label}>{label}</label>}
+			{label && <label htmlFor={props.name ?? ''} className={css.Label}>{label}</label>}
 			<input
 				{...props}
 				className={css.Input}
