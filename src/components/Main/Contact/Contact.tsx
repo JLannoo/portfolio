@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import css from './Contact.module.scss';
 
 import Form from './Form/Form';
@@ -6,22 +7,24 @@ import Input from './Input/Input';
 import TextArea from './Input/TextArea';
 
 export default function Contact() {
+	const { t } = useTranslation('main');
+
 	return (
 		<section className={css.Contact} id="contact">
 			<div className={css.Contact__Title}>
-				<h2>Contact me!</h2>
+				<h2>{t('contact_title')}</h2>
 			</div>
 			<div className={css.Contact__Form}>
 				<Form disabled>
-					<Input label="Name" props={{
+					<Input label={t('contact_form_name')} props={{
 						name: 'Nombre',
 						type: 'text',
 					}} />
-					<Input label="Email" props={{
+					<Input label={t('contact_form_email')} props={{
 						name: 'Email',
 						type: 'email',
 					}} />
-					<TextArea label="Message" props={{
+					<TextArea label={t('contact_form_message')} props={{
 						name: 'Mensaje',
 						rows: 5,
 					}} />

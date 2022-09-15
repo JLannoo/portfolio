@@ -4,8 +4,11 @@ import css from './Skills.module.scss';
 
 import Skill from './Skill/Skill';
 import Decorations from './Decorations/Decorations';
+import { useTranslation } from 'react-i18next';
 
 export default function Skills() {
+	const { t } = useTranslation('main');
+
 	const skillList:SkillType[] = [
 		{
 			name: 'TypeScript',
@@ -73,7 +76,7 @@ export default function Skills() {
 		<section className={css.Skills}>
 			<Decorations />
 			<h2 className={css.Title}>
-                Skills
+				{t('skills_title')}
 			</h2>
 			<div className={css.Skills__container}>
 				{skillList.map((skill) => (
@@ -81,7 +84,7 @@ export default function Skills() {
 				))}
 			</div>
 			<p className={css.Skills__comment}>
-				(These are skills that I have used in a profesional environment or in projects during my higher education)
+				{t('skills_comment')}
 			</p>
 		</section>
 	);

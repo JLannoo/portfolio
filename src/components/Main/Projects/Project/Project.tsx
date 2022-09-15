@@ -6,9 +6,11 @@ import LinkButton from './LinkButton/LinkButton';
 import ProjectModal from './ProjectModal/ProjectModal';
 
 import useModal from '../../../../hooks/useModal';
+import { useTranslation } from 'react-i18next';
 
 export default function Project({ project }: { project: ProjectType }) {
 	const { Modal, isOpen, open, close } = useModal();
+	const { t } = useTranslation('main');
 
 	return (
 		<>
@@ -26,7 +28,7 @@ export default function Project({ project }: { project: ProjectType }) {
 				</div>
 				<div className={css.Project__links}>
 					{project.WIP ?
-						<p>Work in progress</p> :
+						<p>{t('projects_wip')}</p> :
 						project.links.map((link, index) => (
 							<LinkButton key={index} link={link} />
 						))

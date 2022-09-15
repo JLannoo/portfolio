@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Project } from '../../../../../types';
 import css from './ProjectModal.module.scss';
 
@@ -7,6 +8,8 @@ interface ProjectModalProps {
 }
 
 export default function ProjectModal({ project }: ProjectModalProps) {
+	const { t } = useTranslation('main');
+
 	return (
 		<>
 			<div className={css.ProjectModal}>
@@ -22,7 +25,7 @@ export default function ProjectModal({ project }: ProjectModalProps) {
 					</div>
 					<div className={css.ProjectModal__info__responsibilites}>
 						<h3>
-							In this project I was responsible for:
+							{t('projects_modal_responsibilities')}
 						</h3>
 						<ul>
 							{project.responsibilities.map((responsibility, index) => (

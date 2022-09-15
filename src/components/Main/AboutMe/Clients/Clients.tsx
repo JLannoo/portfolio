@@ -3,8 +3,11 @@ import css from './Clients.module.scss';
 
 import ClientCard from './ClientCard/ClientCard';
 import { Client } from '../../../../types';
+import { useTranslation } from 'react-i18next';
 
 export default function Clients() {
+	const { t } = useTranslation('main');
+
 	const clients: Client[] = [
 		{
 			name: 'WD40',
@@ -25,7 +28,7 @@ export default function Clients() {
 
 	return (
 		<div className={css.Clients}>
-			<h2 className={css.Title}>Some clients I have worked for</h2>
+			<h2 className={css.Title}>{t('about_me_clients_title')}</h2>
 			<div className={css.Cards__container}>
 				{clients.map((client: Client) => (
 					<ClientCard key={client.name} client={client} />

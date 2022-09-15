@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import css from './Form.module.scss';
 
 interface FormProps {
@@ -9,6 +10,8 @@ interface FormProps {
 export default function Form({ children, disabled }: FormProps) {
 	const [loading, setLoading] = React.useState(false);
 	const [success, setSuccess] = React.useState(false);
+
+	const { t } = useTranslation('main');
 
 	const handleSubmit: React.FormEventHandler<HTMLFormElement> = (e) => {
 		e.preventDefault();
@@ -37,9 +40,9 @@ export default function Form({ children, disabled }: FormProps) {
 			{children}
 			<button disabled={success} type="submit" className={`${css.Button} ${success ? css.Success : ''}`}>
 				{loading ?
-					'Sending...' :
+					t('contact_form_button_sending') :
 					(success ?
-						'✔' : 'Send')
+						'✔' : t('contact_form_button_default'))
 				}
 			</button>
 		</form>

@@ -1,0 +1,136 @@
+{
+    "Solucionadores": {
+        "title": "WD-40 Club de Solucionadores",
+        "summary": "Red social / blog comunitario, desarrollado en Next.JS para WD-40 LATAM.",
+        "description": [
+            "Red social / blog comunitario donde la gente puede compartir sus experiencias y consejos utilizando los productos de WD-40.\n\n",
+            "Crear este sitio fue una experiencia interesante. El equipo entero se lanzó a hacer un proyecto ambicioso con tecnologías nuevas y deadlines estrictas.\n\n",
+            "Terminó siendo una gran experiencia de aprendizaje y un buen producto final."
+        ],
+        "image": "/projects/solucionadores.png",
+        "links": [
+            { "name": "Website", "link": "https://solucionadores.wd40.lat" }
+        ],
+        "responsibilities": [
+            "Análisis y diseño funcional",
+            "Implementación y diseño de estructura de base de datos (MySQL)",
+            "Migraciones de base de datos",
+            "Desarrollo backend (Node.JS)",
+            "Documentación backend (JSDoc, Swagger)",
+            "Testing de integración",
+            "Deploy de la aplicación (Apache, Nginx)"
+        ]
+    },
+
+
+    "SistemaAenima": {
+        "title": "SistemaAenima",
+        "summary": "Rehacer el frontend y mejorar backend de sistema interno de gestión de presupuestos.",
+        "description": [
+            "En este proyecto rehicimos el frontend del sistema interno de gestión de presupuesto de la empresa y mejoramos su backend.\n\n",
+            "El sistema original estaba hecho en Angular.JS, era lento y difícil de mantener. Además, aproximadamente la mitad no funcionaba como debía.\n\n",
+            "El nuevo fue desarrollada en React y fue un gran aprendizaje. También fue una buena oportunidad para mejorar su funcionalidad y experiencia de usuario.\n\n",
+            "El backend y la base de datos necesitaban un rediseño, refactorización y funcionalidades agregadas.\n\n\n",
+            "Obviamente, al ser un sistema interno de la empresa, solo puedo hablar sobre mi experiencia durante el desarrollo y no puedo proveer mucha información sobre él."
+        ],
+        "image": "/projects/sistemaenima.png",
+        "links": [],
+        "responsibilities": [
+            "Diseño UX e implementación",
+            "Desarrollo frontend (React)",
+            "Desarrollo backend (Node.JS)",
+            "Rediseño e implementación de base de datos",
+            "Documentación de backend"
+        ]
+    },
+
+
+    "PixelChat": {
+        "title": "PixelChat",
+        "summary": "Chat en vivo y dibujar con píxeles con otras personas!",
+        "description": [
+            "Un proyecto personal que desarrollé con Vanilla JS y SocketIO para aprender sobre websockets.\n\n",
+            "Comencé con un chat en vivo porque es el ejercicio clásico de ejemplo como primer proyecto con websockets.\n",
+            "Pero pronto me di cuenta de que hacer solamente un chat sería un poco aburrido, así que pensé en hacerlo más interesante.\n\n",
+            "Me interesó la idea de poder dibujar con las personas de la sala.\n",
+            "Previamente, había creado un bot de Discord donde los usuarios podían dibujar en un lienzo de 25x25 píxeles, así que decidí agregar el mismo concepto\n\n",
+            "Estoy satisfecho con la experiencia de desarrollo y el producto final."
+        ],
+        "image": "/projects/pixelchat.png",
+        "links": [
+            { "name": "Github", "link": "https://github.com/jlannoo/pixelchat" },
+            { "name": "Website", "link": "https://pixelchat.up.railway.app/" }
+        ],
+        "responsibilities": [
+            "Desarrollo backend (Node JS & Socket.IO)",
+            "Desarrollo frontend (Vanilla JS)",
+            "Diseño frontend",
+            "Deploy de aplicación (Railway)"
+        ]
+    },
+
+
+    "EzReachFlexitapa": {
+        "title": "EZ-Reach & Flexitapa",
+        "summary": "Minijuego desarrollado con P5.JS para una campaña de muestras con descuentos como recompensa para productos de WD-40.",
+        "description":[
+            "Este proyecto fue una campaña publicitaria para productos de WD-40 donde la gente podía.\n\n",
+            "Yo desarrollé los minijuegos con P5.JS y las landing pages que los rodean fueron desarrolladas por un compañero con React.\n",
+            "Estos juegos fueron además usados en una expo en vivo, en un stand de WD-40, en forma de Progressive Web App. Se organizó un concurso donde los asistentes podían recibir aún más premios.\n\n",
+            "Fue un proyecto distinto y divertido. No frecuentemente se puede trabajar en videojuegos en el desarrollo web."
+        ],
+        "image": "/projects/ezreach+flexitapa.png",
+        "links": [
+            { "name": "Website", "link": "https://samplingflexitapa.wd40.lat/" },
+            { "name": "Website", "link": "https://ezreach.wd40.lat" }
+        ],
+        "responsibilities": [
+            "Diseño y desarrollo de videojuegos (P5.JS)",
+            "Desarrollo de Progresive Web App"
+        ]
+    },
+
+
+    "Formlic": {
+        "title": "Formlic",
+        "summary": "Un \"formulario como servicio\" de código abierto para crear y gestionar endpoints de formulario para aplicaciones web.",
+        "description":[
+            "Inicié el proyecto porque no estaba conforme con cómo funcionaban la mayoría de los servicios de formularios.\n",
+            "Quería crear un servicio que sea sencillo de usar, tenga una buena UI y sea de código abierto.\n\n",
+            "Puedes crear un formulario, recibir un enlace a él y enviar POST requests, el sistema almacenará los datos y los enviará por mail al email vinculado a la cuenta.\n\n",
+            "El proyecto apunta a estar preparado para usar en un entorno de producción, al menos para mis usos personales."
+        ],
+        "image": "/projects/formlic.png",
+        "links": [],
+        "WIP": true,
+        "responsibilities": [
+            "Análisis y diseño funcional",
+            "Desarrollo frontend (Next.JS)",
+            "Desarrollo backend (Node.JS)",
+            "Rediseño e implementación de base de datos (MongoDB)",
+            "Migraciones de base de datos",
+            "Documentación backend (JSDoc, Swagger)",
+            "Testing de integración",
+            "Deploy de aplicación (Railway)"
+        ]
+    },
+    
+
+    "IntegralsCheatsheet": {
+        "title": "Integrals Cheatsheet",
+        "summary": "Una lista de integrales comúnmente usadas lista para imprimir y con integración de Wolfram Alpha. Hecha para aprender Astro.",
+        "description": [
+            "Este proyecto fue creado principalmente para aprender Astro y cómo usarlo para crear sitios sencillos, livianos, rápidos y generados estáticamente.\n\n",
+            "Lo hice mientras estudiaba para mi examen de Cálculo III. Fue una gran forma de aprender Astro y sus características."
+        ],
+        "image": "/projects/integrals.png",
+        "links": [
+            { "name": "Github", "link": "https://www.github.com/jlannoo/integrals-cheatsheet" },
+            { "name": "Website", "link": "https://jlannoo.github.io/integrals-cheatsheet" }
+        ],
+        "responsibilities": [
+            "Aprender Astro",
+            "Investigación de integrales"
+        ]
+    }
+}   

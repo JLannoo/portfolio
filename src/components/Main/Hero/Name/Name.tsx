@@ -1,12 +1,15 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import css from './Name.module.scss';
 
 export default function Name() {
+	const { t } = useTranslation('main');
+
 	return (
 		<h1 className={css.Name}>
-            Hi!
+			{t('hero_name_hi')}
 			<br></br>
-            I&apos;m Julián Lannóo
+			{t('hero_name_im')} Julián Lannóo
 		</h1>
 	);
 }

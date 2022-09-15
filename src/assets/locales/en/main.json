@@ -1,0 +1,30 @@
+{
+    "navbar_item_home": "Home",
+    "navbar_item_about": "About Me",
+    "navbar_item_projects": "Projects",
+    "navbar_item_contact": "Contact",
+
+    "hero_name_hi": "Hi!",
+    "hero_name_im": "I'm",
+    "hero_subtitle": "Fullstack Web Developer",
+
+    "about_me_title": "About Me",
+    "about_me_body_1": "I am a developer from Argentina. Currently studying Information Systems Engineering at UTN FRRo.",
+    "about_me_body_2": "I work at a Digital Strategy company, building websites and web applications to improve brand image, sales and online presence.",
+    "about_me_body_3": "I am used to working in a well communicated team, employing Agile Methodologies (SCRUM, Kanban), and jumping between multiple concurrent projects for different clients.",
+    "about_me_clients_title": "Some clients I have worked for:",
+
+    "skills_title": "Skills",
+    "skills_comment": "(These are skills that I have used in a profesional environment or in projects during my higher education)",
+
+    "projects_title": "Projects",
+    "projects_wip": "Work in progress",
+    "projects_modal_responsibilities": "In this project I was responsible for:",
+
+    "contact_title": "Contact me!",
+    "contact_form_name": "Name",
+    "contact_form_email": "Email",
+    "contact_form_message": "Message",
+    "contact_form_button_default": "Send",
+    "contact_form_button_sending": "Sending..."
+}

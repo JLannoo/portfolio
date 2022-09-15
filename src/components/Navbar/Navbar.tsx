@@ -4,25 +4,28 @@ import css from './Navbar.module.scss';
 import Logo from './Logo/Logo';
 import MenuItem from './MenuItem/MenuItem';
 import Socials from './Socials/Socials';
+import { useTranslation } from 'react-i18next';
 
 export default function Navbar() {
-	const [selected, setSelected] = React.useState('Home');
+	const { t } = useTranslation('main');
+
+	const [selected, setSelected] = React.useState('#home');
 
 	const MenuItems = [
 		{
-			name: 'Home',
+			name: t('navbar_item_home'),
 			link: '#home',
 		},
 		{
-			name: 'About Me',
+			name: t('navbar_item_about'),
 			link: '#about',
 		},
 		{
-			name: 'Projects',
+			name: t('navbar_item_projects'),
 			link: '#projects',
 		},
 		{
-			name: 'Contact',
+			name: t('navbar_item_contact'),
 			link: '#contact',
 		},
 	];
@@ -36,8 +39,8 @@ export default function Navbar() {
 						key={item.name}
 						name={item.name}
 						link={item.link}
-						onClick={() => setSelected(item.name)}
-						className={selected === item.name ? 'selected' : ''}
+						onClick={() => setSelected(item.link)}
+						className={selected === item.link ? 'selected' : ''}
 					/>
 				))}
 			</ul>
