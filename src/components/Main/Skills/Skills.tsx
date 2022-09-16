@@ -12,63 +12,63 @@ export default function Skills() {
 	const skillList:SkillType[] = [
 		{
 			name: 'TypeScript',
-			image: '/skills/typescript.png',
+			image: './skills/typescript.png',
 		},
 		{
 			name: 'Next.js',
-			image: '/skills/next.png',
+			image: './skills/next.png',
 		},
 		{
 			name: 'Node.js',
-			image: '/skills/node.png',
+			image: './skills/node.png',
 		},
 		{
 			name: 'React',
-			image: '/skills/react.png',
+			image: './skills/react.png',
 		},
 		{
 			name: 'MySQL',
-			image: '/skills/mysql.png',
+			image: './skills/mysql.png',
 		},
 		{
 			name: 'PHP',
-			image: '/skills/php.png',
+			image: './skills/php.png',
 		},
 		{
 			name: 'Laravel',
-			image: '/skills/laravel.png',
+			image: './skills/laravel.png',
 		},
 		{
 			name: 'Python',
-			image: '/skills/python.png',
+			image: './skills/python.png',
 		},
 		{
 			name: 'Websockets',
-			image: '/skills/websockets.png',
+			image: './skills/websockets.png',
 		},
 		{
 			name: 'Linux',
-			image: '/skills/linux.png',
+			image: './skills/linux.png',
 		},
 		{
 			name: 'Nginx',
-			image: '/skills/nginx.png',
+			image: './skills/nginx.png',
 		},
 		{
 			name: 'Apache',
-			image: '/skills/apache.png',
+			image: './skills/apache.png',
 		},
 		{
 			name: 'Docker',
-			image: '/skills/docker.png',
+			image: './skills/docker.png',
 		},
 		{
 			name: 'Git',
-			image: '/skills/git.png',
+			image: './skills/git.png',
 		},
 		{
 			name: 'Github Actions',
-			image: '/skills/github-actions.png',
+			image: './skills/github-actions.png',
 		},
 	];
 

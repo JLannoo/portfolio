@@ -7,7 +7,7 @@
             "Building this was an interesting experience. The whole team jumped head first into an ambicious project with new technologies and tight deadlines.\n\n",
             "It came out as a great project and learning experience."
         ],
-        "image": "/projects/solucionadores.png",
+        "image": "./projects/solucionadores.png",
         "links": [
             { "name": "Website", "link": "https://solucionadores.wd40.lat" }
         ],
@@ -33,7 +33,7 @@
             "The backend and database also needed some reworking and added functionality.\n\n\n",
             "Obviously, this being an internal system, I can only talk about my experience developing it and can't provide much information about it."
         ],
-        "image": "/projects/sistemaenima.png",
+        "image": "./projects/sistemaenima.png",
         "links": [],
         "responsibilities": [
             "UX design and implementation",
@@ -56,7 +56,7 @@
             "I had previously made a Discord bot that allowed users to draw with pixels in a 25x25 canvas, so I decided to add the same idea in here\n\n",
             "I think it came out as a great project and final product."
         ],
-        "image": "/projects/pixelchat.png",
+        "image": "./projects/pixelchat.png",
         "links": [
             { "name": "Github", "link": "https://github.com/jlannoo/pixelchat" },
             { "name": "Website", "link": "https://pixelchat.up.railway.app/" }
@@ -79,7 +79,7 @@
             "These games were finally used in a live expo in a WD-40 stand in the form of PWA. A contest was organized for even more prices for the attendees.\n\n",
             "This was a fun and different project. Not often do you get the chance to work on videogames in the web development industry."
         ],
-        "image": "/projects/ezreach+flexitapa.png",
+        "image": "./projects/ezreach+flexitapa.png",
         "links": [
             { "name": "Website", "link": "https://samplingflexitapa.wd40.lat/" },
             { "name": "Website", "link": "https://ezreach.wd40.lat" }
@@ -100,7 +100,7 @@
             "You can create a form, get a link to it and send POST requests to it to save the data and email it to you.\n\n",
             "I started this project with the idea of making it production ready, at least for my own use cases"
         ],
-        "image": "/projects/formlic.png",
+        "image": "./projects/formlic.png",
         "links": [],
         "WIP": true,
         "responsibilities": [
@@ -123,7 +123,7 @@
             "This project was made mainly for learning Astro and how to use it for lightweight, fast and easy to make statically generated sites.\n\n",
             "Made while I was studying for my Calculus III exam. It was a great way to learn Astro and it's features."
         ],
-        "image": "/projects/integrals.png",
+        "image": "./projects/integrals.png",
         "links": [
             { "name": "Github", "link": "https://www.github.com/jlannoo/integrals-cheatsheet" },
             { "name": "Website", "link": "https://jlannoo.github.io/integrals-cheatsheet" }
