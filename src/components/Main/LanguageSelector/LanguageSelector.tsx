@@ -18,8 +18,8 @@ export default function LanguageSelector() {
 
 	return (
 		<div className={css.LanguageSelector}>
-			<English className={selected === 'en' ? '' : css.disabled} onClick={() => changeLanguage('en')} />
-			<Spanish className={selected === 'es' ? '' : css.disabled} onClick={() => changeLanguage('es')} />
+			<English className={selected.includes('en') ? '' : css.disabled} onClick={() => changeLanguage('en')} />
+			<Spanish className={selected.includes('es') ? '' : css.disabled} onClick={() => changeLanguage('es')} />
 		</div>
 	);
 }
