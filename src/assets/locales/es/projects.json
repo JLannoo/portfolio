@@ -106,10 +106,10 @@
         "responsibilities": [
             "Análisis y diseño funcional",
             "Desarrollo frontend (Next.JS)",
-            "Desarrollo backend (Node.JS)",
-            "Rediseño e implementación de base de datos (MongoDB)",
+            "Desarrollo backend (Node.JS + tRPC)",
+            "Rediseño e implementación de base de datos (MongoDB + Prisma)",
             "Migraciones de base de datos",
-            "Documentación backend (JSDoc, Swagger)",
+            "Documentación backend (JSDoc + Swagger)",
             "Testing de integración",
             "Deploy de aplicación (Railway)"
         ]

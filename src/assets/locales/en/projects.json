@@ -106,8 +106,8 @@
         "responsibilities": [
             "Functional analysis and design",
             "Front end development (Next.JS)",
-            "Backend development",
-            "Database structure design and implementation (MongoDB)",
+            "Backend development (Node.JS + tRPC)",
+            "Database structure design and implementation (MongoDB + Prisma)",
             "Database migrations",
             "Backend documentation (JSDoc + Swagger)",
             "Integration testing",
