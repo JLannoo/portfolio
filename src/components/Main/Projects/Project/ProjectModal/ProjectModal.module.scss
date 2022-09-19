@@ -1,3 +1,4 @@
+@use "/src/styles/breakpoints.module.scss" as *;
 @use "/src/styles/colors.module.scss" as *;
 @use "/src/styles/fonts.module.scss" as *;
 
@@ -53,6 +54,10 @@
                 font-weight: 400;
                 color: black;
                 margin: 0;
+
+                @media screen and (max-width: $navbar-shrink) {
+                    font-size: 1.2rem;
+                }
             }
         }
 

@@ -1,3 +1,5 @@
+@use "/src/styles/breakpoints.module.scss" as *;
+
 .InputContainer {
     display: flex;
     flex-direction: column;
@@ -37,4 +39,11 @@
     min-height: 10rem;
 
     text-align: left;
+}
+
+@media screen and (max-width: $navbar-shrink) {
+    .Input , .TextArea {
+        width: 80%;
+        max-width: 80%;
+    }
 }

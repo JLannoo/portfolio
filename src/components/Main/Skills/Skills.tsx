@@ -4,10 +4,19 @@ import css from './Skills.module.scss';
 
 import Skill from './Skill/Skill';
 import Decorations from './Decorations/Decorations';
+
 import { useTranslation } from 'react-i18next';
+import useMediaQuery from '../../../hooks/useMediaQuery';
 
 export default function Skills() {
 	const { t } = useTranslation('main');
+	const isMobile = useMediaQuery('(max-width: 580px)');
+
+	const [showLimit, setShowLimit] = React.useState(isMobile ? 8 : null);
+
+	React.useEffect(() => {
+		setShowLimit(isMobile ? 8 : null);
+	}, [isMobile]);
 
 	const skillList:SkillType[] = [
 		{
@@ -79,9 +88,16 @@ export default function Skills() {
 				{t('skills_title')}
 			</h2>
 			<div className={css.Skills__container}>
-				{skillList.map((skill) => (
-					<Skill key={skill.name} skill={skill} />
+				{skillList.map((skill, i) => (
+					isMobile && showLimit && i >= showLimit ? null : <Skill key={skill.name} skill={skill} />
 				))}
+			</div>
+			<div className={css.Skills__showMore}>
+				{isMobile && showLimit && (
+					<button onClick={() => setShowLimit(null)}>
+						{t('skills_show_more')}
+					</button>
+				)}
 			</div>
 			<p className={css.Skills__comment}>
 				{t('skills_comment')}

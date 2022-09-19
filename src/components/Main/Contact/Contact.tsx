@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import css from './Contact.module.scss';
 
+import Socials from '../../Navbar/Socials/Socials';
 import Form from './Form/Form';
 import Input from './Input/Input';
 import TextArea from './Input/TextArea';
@@ -13,6 +14,11 @@ export default function Contact() {
 		<section className={css.Contact} id="contact">
 			<div className={css.Contact__Title}>
 				<h2>{t('contact_title')}</h2>
+			</div>
+			<div className={css.Contact__Socials}>
+				<p>{t('contact_socials_title')}</p>
+				<Socials color="white"/>
+				<p>{t('contact_socials_or')}</p>
 			</div>
 			<div className={css.Contact__Form}>
 				<Form disabled>
@@ -29,8 +35,6 @@ export default function Contact() {
 						rows: 5,
 					}} />
 				</Form>
-			</div>
-			<div className={css.Contact__socials}>
 			</div>
 		</section>
 	);

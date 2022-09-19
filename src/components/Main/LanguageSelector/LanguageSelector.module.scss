@@ -1,3 +1,5 @@
+@use "/src/styles/breakpoints.module.scss" as *;
+
 .LanguageSelector {
     position: fixed;
     z-index: 100;
@@ -17,6 +19,10 @@
         cursor: pointer;
 
         filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
+
+        @media screen and (max-width: $navbar-shrink) {
+            font-size: 3rem;
+        }
     }
     
     .disabled {

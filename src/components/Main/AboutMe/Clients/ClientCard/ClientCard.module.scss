@@ -1,6 +1,6 @@
 .ClientCard {
     img {
-        width: 10rem;
+        width: clamp(7.5rem, 15vw, 10rem);
         object-fit: cover;
     }
 

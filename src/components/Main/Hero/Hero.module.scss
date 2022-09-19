@@ -1,5 +1,6 @@
 @use "../../../styles/fonts.module.scss" as *;
 @use "../../../styles/colors.module.scss" as *;
+@use "../../../styles/breakpoints.module.scss" as *;
 
 .Hero {
     position: relative;
@@ -15,6 +16,20 @@
 
     padding: 4rem;
     box-sizing: border-box;
+    overflow: hidden;
 
     font-family: $font-family-content;
+
+    &__socials {
+        width: 50%;
+
+    }
+
+    @media screen and (max-width: $navbar-shrink) {
+        padding-bottom: 0;
+        
+        &__socials {
+            width: 100%;
+        }
+    }
 }

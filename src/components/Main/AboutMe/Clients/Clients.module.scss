@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.Title {
+    text-align: center;
+}
+
 .Cards__container {
     display: flex;
     flex-wrap: wrap;
@@ -14,5 +18,5 @@
 
     text-align: center;
 
-    gap: 3rem;
+    gap: clamp(1rem, 3vw, 3rem);
 }

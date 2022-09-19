@@ -16,12 +16,15 @@
 
     "skills_title": "Habilidades",
     "skills_comment": "(Estas son tecnologías que he utilizado en proyectos de manera profesional o durante mi educación superior)",
+    "skills_show_more": "↓ Mostrar más ↓",
 
     "projects_title": "Proyectos",
     "projects_wip": "En construcción",
     "projects_modal_responsibilities": "En este proyecto fui responsable de:",
 
     "contact_title": "Contáctame!",
+    "contact_socials_title": "En mis redes",
+    "contact_socials_or": "o...",
     "contact_form_name": "Nombre",
     "contact_form_email": "Email",
     "contact_form_message": "Mensaje",

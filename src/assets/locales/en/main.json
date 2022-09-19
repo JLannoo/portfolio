@@ -16,12 +16,15 @@
 
     "skills_title": "Skills",
     "skills_comment": "(These are skills that I have used in a profesional environment or in projects during my higher education)",
+    "skills_show_more": "↓ Show more ↓",
 
     "projects_title": "Projects",
     "projects_wip": "Work in progress",
     "projects_modal_responsibilities": "In this project I was responsible for:",
 
     "contact_title": "Contact me!",
+    "contact_socials_title": "In my social media",
+    "contact_socials_or": "or...",
     "contact_form_name": "Name",
     "contact_form_email": "Email",
     "contact_form_message": "Message",
