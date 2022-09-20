@@ -59,7 +59,7 @@
         "image": "./projects/pixelchat.png",
         "links": [
             { "name": "Github", "link": "https://github.com/jlannoo/pixelchat" },
-            { "name": "Website", "link": "https://pixelchat.up.railway.app/" }
+            { "name": "Website", "link": "https://pixelchat.jlannoo.dev/" }
         ],
         "responsibilities": [
             "Backend development (Node JS & Socket.IO)",
@@ -126,7 +126,7 @@
         "image": "./projects/integrals.png",
         "links": [
             { "name": "Github", "link": "https://www.github.com/jlannoo/integrals-cheatsheet" },
-            { "name": "Website", "link": "https://jlannoo.github.io/integrals-cheatsheet" }
+            { "name": "Website", "link": "https://integrals.jlannoo.dev" }
         ],
         "responsibilities": [
             "Learning Astro",
