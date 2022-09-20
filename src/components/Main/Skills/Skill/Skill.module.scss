@@ -1,12 +1,14 @@
 @use "../../../../styles/colors.module.scss" as *;
 
+$logo-size: clamp(100px , 20vw, 128px);
+
 .Skill {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    flex: 1 1 128px;
+    flex: 1 1 $logo-size;
 
     text-align: center;
 
@@ -15,8 +17,8 @@
         justify-content: center;
         align-items: center;
 
-        width: 128px;
-        height: 128px;
+        width: $logo-size;
+        height: $logo-size;
 
         background-color: $color-bg-medium;
         border-radius: 100%;

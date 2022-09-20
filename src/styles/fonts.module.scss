@@ -3,3 +3,7 @@
 
 $font-family-navbar: "Peddana", serif;
 $font-family-content: "Ubuntu Mono", monospace;
+
+$font-size-titles: clamp(2.5rem, 7vw, 3rem);
+$font-size-titles-small: clamp(2rem, 5vw, 2.5rem);
+$font-size-content: clamp(1rem, 3vw, 1.2rem);

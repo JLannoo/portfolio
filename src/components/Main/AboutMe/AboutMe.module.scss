@@ -1,4 +1,6 @@
-@use "../../../styles/colors.module.scss" as *;
+@use "/src/styles/colors.module.scss" as *;
+@use "/src/styles/fonts.module.scss" as *;
+@use "/src/styles/layout.module.scss" as *;
 
 .AboutMe{
     display: flex;
@@ -10,14 +12,14 @@
     height: 100%;
 
     background-color: $color-bg-medium;
-    padding: 3rem;
+    padding: $padding-section;
     box-sizing: border-box;
 
     font-family: inherit;
 }
 
 .Title {
-    font-size: 2.75rem;
+    font-size: $font-size-titles;
     font-weight: 900;
     margin: 0;
     padding: 0;
@@ -31,7 +33,7 @@
     text-align: center;
 
     line-height: 1.5;
-    font-size: 1.2rem;
+    font-size: $font-size-content;
 
     max-width: 100ch;
 }

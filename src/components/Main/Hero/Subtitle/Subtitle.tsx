@@ -9,24 +9,28 @@ export default function Subtitle() {
 
 	const string = t('hero_subtitle');
 	const [text, setText] = React.useState('');
+	const [timeoutNumber, setTimeoutNumber] = React.useState<NodeJS.Timeout>();
 
 	React.useEffect(() => {
-		const interval = setInterval(() => {
+		clearTimeout(timeoutNumber);
+		setText('');
+	}, [i18next.language]);
+
+	React.useEffect(() => {
+		const timeout = setTimeout(() => {
 			if (text.length < string.length) {
 				setText(text + string[text.length]);
 			} else {
-				clearInterval(interval);
+				clearTimeout(timeoutNumber);
 			}
 		}, 150);
 
+		setTimeoutNumber(timeout);
+
 		return () => {
-			clearInterval(interval);
+			clearTimeout(timeoutNumber);
 		};
 	}, [text]);
-
-	React.useEffect(() => {
-		setText('');
-	}, [i18next.language]);
 
 	return (
 		<h2 className={css.Subtitle}>
