@@ -1,4 +1,6 @@
-@use "../../../styles/colors.module.scss" as *;
+@use "/src/styles/colors.module.scss" as *;
+@use "/src/styles/fonts.module.scss" as *;
+@use "/src/styles/layout.module.scss" as *;
 
 .Skills {
     display: flex;
@@ -11,7 +13,8 @@
     height: 100%;
     
     position: relative;
-    padding: 3rem;
+    padding: $padding-section;
+    padding-top: 4rem;
     padding-bottom: 4rem;
 
     overflow: hidden;
@@ -25,7 +28,7 @@
 
         max-width: 800px;
 
-        gap: 2.5rem;
+        gap: clamp(1.5rem, 5vw, 2.5rem);
     }
 
     &__comment {
@@ -43,7 +46,8 @@
             border-radius: 0.5rem;
             background-color: $color-accent;
             color: white;
-            font-size: 1.5rem;
+            font-size: clamp(1rem, 4vw, 1.5rem);
+            white-space: nowrap;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.2s ease-in-out;
@@ -57,6 +61,6 @@
 }
 
 .Title {
-    font-size: 2.5rem;
+    font-size: $font-size-titles-small;
     margin-top: 0;
 }
