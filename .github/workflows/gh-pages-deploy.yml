@@ -59,6 +59,7 @@ jobs:
         with:
           target_branch: github-pages
           build_dir: build
+          fqdn: jlannoo.dev
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
