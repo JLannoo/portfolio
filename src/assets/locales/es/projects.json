@@ -89,6 +89,29 @@
             "Desarrollo de Progresive Web App"
         ]
     },
+    
+
+    "SvelteQ&A": {
+        "title": "Svelte Q&A",
+        "summary": "Una aplicación de Q&A hecha con SvelteKit, Planetscale, Prisma y deployeada en Vercel.",
+        "description": [
+            "Aplicación simple de preguntas y respuestas anónimas, hecha para familiarizarme con SvelteKit.\n\n",
+            "Fue un proyecto rápido que hice en unas pocas horas. No es el mejor código que he escrito, pero fue una buena manera de hacer algo en un framework con el que no estaba acostumbrado a trabajar.\n\n",
+            "Además, lo utilicé para probar Planetscale y Prisma.\n\n",
+            "Todas estas son tecnologías geniales que me permitieron hacer este proyecto en muy poco tiempo y de una manera muy estable y confiable."
+        ],
+        "image": "./projects/svelte-qna.png",
+        "links": [
+            { "name": "Github", "link": "https://github.com/jlannoo/svelte-qna"},
+            { "name": "Website", "link": "https://qna.jlannoo.dev/" }
+        ],
+        "responsibilities": [
+            "Desarrollo frontend (SvelteKit)",
+            "Desarrollo backend (SvelteKit)",
+            "Implementación y diseño de base de datos (Planetscale, Prisma)",
+            "Deploy de aplicación (Vercel)"
+        ]
+    },
 
 
     "Formlic": {
