@@ -91,6 +91,29 @@
     },
 
 
+    "SvelteQ&A": {
+        "title": "Svelte Q&A",
+        "summary": "A quick and simple Q&A app made with SvelteKit, Planetscale, Prisma and deployed in Vercel.",
+        "description": [
+            "Simple anonymous questions and answers app made for getting familiar with SvelteKit.\n\n",
+            "It was a quick and dirty project that I made in a few hours. It's not the best code I've ever written, but it was a great way to do something in a framework I was not familiar with.\n",
+            "I also used this project to get familiar with Planetscale, Prisma.\n\n",
+            "All of these are great technologies that allowed me to make this project in a very short time and in a very stable and reliable way."
+        ],
+        "image": "./projects/svelte-qna.png",
+        "links": [
+            { "name": "Github", "link": "https://github.com/jlannoo/svelte-qna"},
+            { "name": "Website", "link": "https://qna.jlannoo.dev/" }
+        ],
+        "responsibilities": [
+            "Frontend development (SvelteKit)",
+            "Backend development (SvelteKit)",
+            "Database design and implementation (Planetscale, Prisma)",
+            "Application deployment (Vercel)"
+        ]
+    },
+
+
     "Formlic": {
         "title": "Formlic",
         "summary": "An open-source \"form as a service\" platform for creating and managing forms endpoints for web applications.",
