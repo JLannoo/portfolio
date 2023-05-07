@@ -36,8 +36,16 @@ export default function Skills() {
 			image: './skills/react.png',
 		},
 		{
+			name: 'Angular',
+			image: './skills/angular.png',
+		},
+		{
 			name: 'MySQL',
 			image: './skills/mysql.png',
+		},
+		{
+			name: 'Prisma',
+			image: './skills/prisma.png',
 		},
 		{
 			name: 'PHP',
