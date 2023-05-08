@@ -23,6 +23,8 @@ $logo-size: clamp(100px , 20vw, 128px);
         background-color: $color-bg-medium;
         border-radius: 100%;
 
+        cursor: pointer;
+        
         svg {
             font-size: 3.5rem;
         }

@@ -12,13 +12,15 @@ export default function Skill({ skill }: { skill: SkillType }) {
 		<div className={css.Skill}>
 			<>
 				<div className={css.Skill__image}>
-					{errored ? (
-						<BrokenImage />
-					) : <img src={skill.image}
-						alt={skill.name}
-						onError={(e) => {
-							setErrored(true);
-						}}/>}
+					<a href={skill.url} target='_blank' rel="noreferrer">
+						{errored ? (
+							<BrokenImage />
+						) : <img src={skill.image}
+							alt={skill.name}
+							onError={(e) => {
+								setErrored(true);
+							}}/>}
+					</a>
 				</div>
 				<div className={css.Skill__name}>{skill.name}</div>
 			</>

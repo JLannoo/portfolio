@@ -22,70 +22,87 @@ export default function Skills() {
 		{
 			name: 'TypeScript',
 			image: './skills/typescript.png',
+			url: 'https://www.typescriptlang.org/',
 		},
 		{
 			name: 'Next.js',
 			image: './skills/next.png',
+			url: 'https://nextjs.org/',
 		},
 		{
 			name: 'Node.js',
 			image: './skills/node.png',
+			url: 'https://nodejs.org/',
 		},
 		{
 			name: 'React',
 			image: './skills/react.png',
+			url: 'https://reactjs.org/',
 		},
 		{
 			name: 'Angular',
 			image: './skills/angular.png',
+			url: 'https://angular.io/',
 		},
 		{
 			name: 'MySQL',
 			image: './skills/mysql.png',
+			url: 'https://www.mysql.com/',
 		},
 		{
 			name: 'Prisma',
 			image: './skills/prisma.png',
+			url: 'https://www.prisma.io/',
 		},
 		{
 			name: 'PHP',
 			image: './skills/php.png',
+			url: 'https://www.php.net/',
 		},
 		{
 			name: 'Laravel',
 			image: './skills/laravel.png',
+			url: 'https://laravel.com/',
 		},
 		{
 			name: 'Python',
 			image: './skills/python.png',
+			url: 'https://www.python.org/',
 		},
 		{
 			name: 'Websockets',
 			image: './skills/websockets.png',
+			url: 'https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API',
 		},
 		{
 			name: 'Linux',
 			image: './skills/linux.png',
+			url: 'https://www.linux.org/',
 		},
 		{
 			name: 'Nginx',
 			image: './skills/nginx.png',
+			url: 'https://www.nginx.com/',
 		},
 		{
 			name: 'Apache',
 			image: './skills/apache.png',
+			url: 'https://httpd.apache.org/',
 		},
 		{
 			name: 'Docker',
 			image: './skills/docker.png',
+			url: 'https://www.docker.com/',
 		},
 		{
 			name: 'Git',
 			image: './skills/git.png',
+			url: 'https://git-scm.com/',
 		},
 		{
 			name: 'Github Actions',
 			image: './skills/github-actions.png',
+			url: 'https://github.com/features/actions',
 		},
 	];
 
