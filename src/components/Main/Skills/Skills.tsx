@@ -30,11 +30,6 @@ export default function Skills() {
 			url: 'https://nextjs.org/',
 		},
 		{
-			name: 'Node.js',
-			image: './skills/node.png',
-			url: 'https://nodejs.org/',
-		},
-		{
 			name: 'React',
 			image: './skills/react.png',
 			url: 'https://reactjs.org/',
@@ -45,6 +40,11 @@ export default function Skills() {
 			url: 'https://angular.io/',
 		},
 		{
+			name: 'Svelte',
+			image: './skills/svelte.png',
+			url: 'https://svelte.dev/',
+		},
+		{
 			name: 'MySQL',
 			image: './skills/mysql.png',
 			url: 'https://www.mysql.com/',
@@ -53,6 +53,11 @@ export default function Skills() {
 			name: 'Prisma',
 			image: './skills/prisma.png',
 			url: 'https://www.prisma.io/',
+		},
+		{
+			name: 'Drizzle',
+			image: './skills/drizzle.png',
+			url: 'https://orm.drizzle.team/',
 		},
 		{
 			name: 'PHP',
@@ -70,14 +75,14 @@ export default function Skills() {
 			url: 'https://www.python.org/',
 		},
 		{
-			name: 'Websockets',
-			image: './skills/websockets.png',
-			url: 'https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API',
-		},
-		{
 			name: 'Linux',
 			image: './skills/linux.png',
 			url: 'https://www.linux.org/',
+		},
+		{
+			name: 'Docker',
+			image: './skills/docker.png',
+			url: 'https://www.docker.com/',
 		},
 		{
 			name: 'Nginx',
@@ -88,11 +93,6 @@ export default function Skills() {
 			name: 'Apache',
 			image: './skills/apache.png',
 			url: 'https://httpd.apache.org/',
-		},
-		{
-			name: 'Docker',
-			image: './skills/docker.png',
-			url: 'https://www.docker.com/',
 		},
 		{
 			name: 'Git',
