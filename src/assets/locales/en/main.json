@@ -9,16 +9,17 @@
     "hero_subtitle": "Fullstack Web Developer",
 
     "about_me_title": "About Me",
-    "about_me_body_1": "I am a developer from Argentina. Currently studying Information Systems Engineering at UTN FRRo.",
-    "about_me_body_2": "I work at a Digital Strategy company, building websites and web applications to improve brand image, sales and online presence.",
-    "about_me_body_3": "I am used to working in a well communicated team, employing Agile Methodologies (SCRUM, Kanban), and jumping between multiple concurrent projects for different clients.",
-    "about_me_clients_title": "Some clients I have worked for:",
+    "about_me_body_1": "I am an Argentine developer currently pursuing a degree in Information Systems Engineering at UTN FRRo.",
+    "about_me_body_2": "Specialized in constructing websites, web applications and systems. My main focus is the user experience, usability and accesibility. Both for final users and for other developers.",
+    "about_me_body_3": "Used to working in a well communicated team, employing Agile Methodologies (SCRUM, Kanban), and jumping between multiple concurrent projects for different clients.",
+    "about_me_clients_title": "Some clients I have worked with:",
 
     "skills_title": "Skills",
-    "skills_comment": "(These are skills that I have used in a profesional environment or in projects during my higher education)",
+    "skills_comment": "(These are skills that I have used in a profesional environment)",
     "skills_show_more": "↓ Show more ↓",
 
     "projects_title": "Projects",
+    "projects_repos": "Also check out my repositories on ",
     "projects_wip": "Work in progress",
     "projects_modal_responsibilities": "In this project I was responsible for:",
 
