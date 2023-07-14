@@ -10,15 +10,16 @@
 
     "about_me_title": "Sobre mí",
     "about_me_body_1": "Soy un desarrollador de Argentina. Además, actualmente estoy estudiando Ingeniería en Sistema de la Información en UTN FRRo.",
-    "about_me_body_2": "Trabajo en una compañía de estrategia digital, creando sitios y aplicaciones web para mejorar la imagen de marca, ventas y presencia online.",
+    "about_me_body_2": "Me especializo en la creación de sitios, aplicaciones web y sistemas. El enfoque principal de mi trabajo es la experiencia del usuario, la usabilidad y la accesibilidad, ya sea para usuarios finales o para otros desarrolladores.",
     "about_me_body_3": "Estoy acostumbrado a trabajar en un equipo bien comunicado, utilizando Metodologías Ágiles (SCRUM, Kanban) y trabajando simultáneamente en múltiples proyectos para distintos clientes.",
     "about_me_clients_title": "Algunos clientes con los cuales trabajé:",
 
     "skills_title": "Habilidades",
-    "skills_comment": "(Estas son tecnologías que he utilizado en proyectos de manera profesional o durante mi educación superior)",
+    "skills_comment": "(Estas son tecnologías que he utilizado en proyectos de manera profesional)",
     "skills_show_more": "↓ Mostrar más ↓",
 
     "projects_title": "Proyectos",
+    "projects_repos": "Además, mira mis repositorios en ",
     "projects_wip": "En construcción",
     "projects_modal_responsibilities": "En este proyecto fui responsable de:",
 

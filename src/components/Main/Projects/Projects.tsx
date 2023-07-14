@@ -26,6 +26,14 @@ export default function Projects() {
 					{tMain('projects_title')}
 				</h2>
 			</div>
+			<div className={css.CheckMyRepos}>
+				<span>
+					{tMain('projects_repos')}
+				</span>
+				<a href="https://github.com/jlannoo?tab=repositories" target="_blank" rel="noopener noreferrer">
+						Github
+				</a>
+			</div>
 			<div className={css.Projects__container}>
 				{projects.map((project, index) => (
 					<Project key={index} project={project} />

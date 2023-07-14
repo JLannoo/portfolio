@@ -22,6 +22,7 @@ module.exports = {
 		'object-curly-spacing': ['error', 'always'],
 		'max-len': 0,
 		'spaced-comment': 'off',
+		'react/prop-types': 'off',
 	},
 
 };

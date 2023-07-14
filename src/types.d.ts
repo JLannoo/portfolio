@@ -20,6 +20,7 @@ export interface Client {
 export interface Skill {
     name: string;
     image: string;
+    url: string;
 }
 
 export interface Project {
