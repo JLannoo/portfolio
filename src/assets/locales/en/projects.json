@@ -91,6 +91,29 @@
     },
 
 
+    "CanvasASCII": {
+        "title": "Canvas ASCII",
+        "summary": "An image manipulation tool that converts images to ASCII art. Made with HTML5 canvas.",
+        "description": [
+            "A simple ASCII art generator from images made with HTML5 Canvas.\n\n",
+            "It also allows you to manipulate other aspects of the image like brightness, pixel size, color depth, etc.\n\n",
+            "I made this project for learning about HTML5 Canvas and how to use it to make simple image processing.\n\n",
+            "It was a fun project and I learned a lot about Canvas and image processing."
+        ],
+        "image": "./projects/canvas-ascii.png",
+        "links": [
+            { "name": "Github", "link": "https://github.com/jlannoo/CanvasASCII" },
+            { "name": "Website", "link": "https://canvas-ascii.jlannoo.dev/" }
+        ],
+        "responsibilities": [
+            "Frontend development (Vanilla JS)",
+            "Frontend design",
+            "HTML5 Canvas manipulation",
+            "Image processing research"
+        ]
+    },
+
+
     "SvelteQ&A": {
         "title": "Svelte Q&A",
         "summary": "A quick and simple Q&A app made with SvelteKit, Planetscale, Prisma and deployed in Vercel.",

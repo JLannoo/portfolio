@@ -14,6 +14,7 @@ export default function Projects() {
 		tProjects('SistemaAenima', { returnObjects: true }),
 		tProjects('PixelChat', { returnObjects: true }),
 		tProjects('EzReachFlexitapa', { returnObjects: true }),
+		tProjects('CanvasASCII', { returnObjects: true }),
 		tProjects('SvelteQ&A', { returnObjects: true }),
 		tProjects('Formlic', { returnObjects: true }),
 		tProjects('IntegralsCheatsheet', { returnObjects: true }),
