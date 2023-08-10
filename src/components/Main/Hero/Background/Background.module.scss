@@ -1,3 +1,5 @@
+@use "/src/styles/colors.module.scss" as colors;
+
 .Background {
     position: absolute;
 
@@ -14,9 +16,64 @@
     overflow: hidden;
 }
 
-#tsparticles {
+.Particles {
+    position: relative;
+
     width: 100%;
     height: 100%;
 
-    z-index: -99;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+}
+
+$tailLength: 200;
+.Particle {
+    position: absolute;
+
+    top: -10%;
+    left: 0;
+
+    border-radius: 100vw;
+
+    background-color: colors.$color-accent;
+    animation: fall 10s linear infinite;
+
+    opacity: 0.25;
+
+    &::before {
+        content: "";
+
+        position: absolute;
+        bottom: 0;
+
+        width: 50%;
+        transform: translateX(50%);
+        height: $tailLength+px;
+
+        background: linear-gradient(to top, colors.$color-accent, colors.$color-accent-secondary, transparent);
+    }
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(100vh);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) { 
+    .Particle {
+        animation: none;
+    }
+
+    @for $i from 1 through 100 {
+        .Particle:nth-child(#{$i}) {
+            transform: translateY(#{random(100)}vh);
+        }
+    }
 }
