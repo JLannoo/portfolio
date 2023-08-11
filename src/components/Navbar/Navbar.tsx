@@ -30,8 +30,8 @@ export default function Navbar() {
 		},
 	];
 
-	const elements = document.querySelectorAll('section[id]') as NodeListOf<HTMLElement>;
 	const scrollHandler = () => {
+		const elements = document.querySelectorAll('section[id]') as NodeListOf<HTMLElement>;
 		elements.forEach((element) => {
 			const isScrolledToTop = window.scrollY === 0;
 			const isScrolledToBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight;
