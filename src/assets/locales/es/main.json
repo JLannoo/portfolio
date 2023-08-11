@@ -2,6 +2,7 @@
     "navbar_item_home": "Inicio",
     "navbar_item_about": "Sobre Mi",
     "navbar_item_projects": "Proyectos",
+    "navbar_item_skills": "Conocimientos",
     "navbar_item_contact": "Contacto",
 
     "hero_name_hi": "Hola!",
@@ -10,11 +11,11 @@
 
     "about_me_title": "Sobre mí",
     "about_me_body_1": "Soy un desarrollador de Argentina. Además, actualmente estoy estudiando Ingeniería en Sistema de la Información en UTN FRRo.",
-    "about_me_body_2": "Me especializo en la creación de sitios, aplicaciones web y sistemas. El enfoque principal de mi trabajo es la experiencia del usuario, la usabilidad y la accesibilidad, ya sea para usuarios finales o para otros desarrolladores.",
+    "about_me_body_2": "Me especializo en la creación de sitios, aplicaciones web, sistemas y utilidades para otros desarrolladores.",
     "about_me_body_3": "Estoy acostumbrado a trabajar en un equipo bien comunicado, utilizando Metodologías Ágiles (SCRUM, Kanban) y trabajando simultáneamente en múltiples proyectos para distintos clientes.",
     "about_me_clients_title": "Algunos clientes con los cuales trabajé:",
 
-    "skills_title": "Habilidades",
+    "skills_title": "Conocimientos",
     "skills_comment": "(Estas son tecnologías que he utilizado en proyectos de manera profesional)",
     "skills_show_more": "↓ Mostrar más ↓",
 

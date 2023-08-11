@@ -13,16 +13,16 @@ export default function Navbar() {
 
 	const MenuItems = [
 		{
-			name: t('navbar_item_home'),
-			link: '#home',
-		},
-		{
 			name: t('navbar_item_about'),
 			link: '#about',
 		},
 		{
 			name: t('navbar_item_projects'),
 			link: '#projects',
+		},
+		{
+			name: t('navbar_item_skills'),
+			link: '#skills',
 		},
 		{
 			name: t('navbar_item_contact'),

@@ -12,9 +12,9 @@ export default function Projects() {
 	const projects: ProjectType[] = [
 		tProjects('Solucionadores', { returnObjects: true }),
 		tProjects('SistemaAenima', { returnObjects: true }),
+		tProjects('CanvasASCII', { returnObjects: true }),
 		tProjects('PixelChat', { returnObjects: true }),
 		tProjects('EzReachFlexitapa', { returnObjects: true }),
-		tProjects('CanvasASCII', { returnObjects: true }),
 		tProjects('SvelteQ&A', { returnObjects: true }),
 		tProjects('Formlic', { returnObjects: true }),
 		tProjects('IntegralsCheatsheet', { returnObjects: true }),
