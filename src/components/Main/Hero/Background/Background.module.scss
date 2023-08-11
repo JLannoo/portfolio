@@ -32,7 +32,7 @@ $tailLength: 200;
 .Particle {
     position: absolute;
 
-    top: -10%;
+    top: -5%;
     left: 0;
 
     border-radius: 100vw;
@@ -73,7 +73,7 @@ $tailLength: 200;
 
     @for $i from 1 through 100 {
         .Particle:nth-child(#{$i}) {
-            transform: translateY(#{random(100)}vh);
+            transform: translateY(#{random(50)}vh);
         }
     }
 }
