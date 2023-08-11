@@ -9,13 +9,9 @@ import { useTranslation } from 'react-i18next';
 export default function Navbar() {
 	const { t } = useTranslation('main');
 
-	const [selected, setSelected] = React.useState('#home');
+	const [selected, setSelected] = React.useState('#about');
 
 	const MenuItems = [
-		{
-			name: t('navbar_item_home'),
-			link: '#home',
-		},
 		{
 			name: t('navbar_item_about'),
 			link: '#about',
@@ -25,10 +21,38 @@ export default function Navbar() {
 			link: '#projects',
 		},
 		{
+			name: t('navbar_item_skills'),
+			link: '#skills',
+		},
+		{
 			name: t('navbar_item_contact'),
 			link: '#contact',
 		},
 	];
+
+	const elements = document.querySelectorAll('section[id]') as NodeListOf<HTMLElement>;
+	const scrollHandler = () => {
+		elements.forEach((element) => {
+			const isScrolledToTop = window.scrollY === 0;
+			const isScrolledToBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight;
+
+			if (isScrolledToTop) setSelected(`#${elements[0].id}`);
+			if (isScrolledToBottom) setSelected(`#${elements[elements.length - 1].id}`);
+
+			const screenMiddle = window.innerHeight / 2 + window.scrollY;
+			if (element.offsetTop <= screenMiddle && element.offsetTop + element.offsetHeight >= screenMiddle) {
+				setSelected(`#${element.id}`);
+			}
+		});
+	};
+
+	React.useEffect(() => {
+		window.addEventListener('scroll', scrollHandler);
+
+		return () => {
+			window.removeEventListener('scroll', scrollHandler);
+		};
+	}, []);
 
 	return (
 		<nav className={css.Navbar}>
@@ -39,7 +63,6 @@ export default function Navbar() {
 						key={item.name}
 						name={item.name}
 						link={item.link}
-						onClick={() => setSelected(item.link)}
 						className={selected === item.link ? 'selected' : ''}
 					/>
 				))}

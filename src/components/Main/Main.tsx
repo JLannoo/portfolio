@@ -13,8 +13,8 @@ export default function Main() {
 		<LanguageSelector />
 		<Hero />
 		<AboutMe />
-		<Skills />
 		<Projects />
+		<Skills />
 		<Contact />
 	</main>;
 }

@@ -107,7 +107,7 @@ export default function Skills() {
 	];
 
 	return (
-		<section className={css.Skills}>
+		<section className={css.Skills} id="skills">
 			<Decorations />
 			<h2 className={css.Title}>
 				{t('skills_title')}

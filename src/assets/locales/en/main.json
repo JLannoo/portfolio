@@ -2,6 +2,7 @@
     "navbar_item_home": "Home",
     "navbar_item_about": "About Me",
     "navbar_item_projects": "Projects",
+    "navbar_item_skills": "Skills",
     "navbar_item_contact": "Contact",
 
     "hero_name_hi": "Hi!",
@@ -10,7 +11,7 @@
 
     "about_me_title": "About Me",
     "about_me_body_1": "I am an Argentine developer currently pursuing a degree in Information Systems Engineering at UTN FRRo.",
-    "about_me_body_2": "Specialized in constructing websites, web applications and systems. My main focus is the user experience, usability and accesibility. Both for final users and for other developers.",
+    "about_me_body_2": "Specialized in constructing websites, web applications, systems and tools and utilities for other developers.",
     "about_me_body_3": "Used to working in a well communicated team, employing Agile Methodologies (SCRUM, Kanban), and jumping between multiple concurrent projects for different clients.",
     "about_me_clients_title": "Some clients I have worked with:",
 
