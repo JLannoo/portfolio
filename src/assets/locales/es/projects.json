@@ -1,4 +1,48 @@
-{
+{    
+    "John Deere - Ana": {
+        "title": "John Deere - Ana",
+        "summary": "Experiencia de Realidad Aumentada con la asistente virtual de John Deere",
+        "description": [
+            "Este proyecto es una experiencia de realidad aumentada para el lanzamiento de la asistente virtual de John Deere.\n\n",
+            "La experiencia consiste en una aplicación web que permite a los usuarios interactuar con la asistente virtual de John Deere, Ana, y compartir una captura de su experiencia en redes sociales.\n\n",
+            "La aplicación fue desarrollada con Three.JS y la API WebXR de Javascript.\n\n",
+            "Fue un proyecto muy interesante y me llevo a investigar muchísimo sobre la API y el funcionamiento interno de WebXR y el propio navegador (terminé leyendo el código fuente de Chromium 😬).\n\n",
+            "Incluso a escribí un par de artículos sobre problemas que surgieron en este proyecto. Puedes leerlos en mi perfil de Medium."
+        ],
+        "image": "./projects/johndeere-ana.png",
+        "links": [
+            { "name": "Website", "link": "https://avatardigital.deere.com/" }
+        ],
+        "responsibilities": [
+            "Diseño y desarrollo de la aplicación web (Three.JS)",
+            "Investigación y desarrollo de la experiencia de realidad aumentada (WebXR)",
+            "Documentación de la aplicación web (JSDoc)"
+        ]
+    },
+
+    "Wiz Light Manager": {
+        "title": "Wiz Lights Manager",
+        "summary": "Librería de Typescript y aplicación de Electron para gestionar luces inteligentes de Wiz.",
+        "description": [
+            "Wiz Light Manager es una librería de Typescript y una aplicación de Electron para gestionar luces inteligentes de Wiz a través de una API UDP que hostea cada luz.\n\n",
+            "Es un proyecto que comencé en Rust, pero debido a mi falta de experiencia en Rust, decidí cambiar a Typescript.\n\n",
+            "La librería de Typescript es una API para interactuar con las luces de Wiz.\n",
+            "Permite descubrir luces en la red local, cambiar su color, brillo, temperatura de color, etc.\n\n",
+            "La aplicación de Electron es una interfaz gráfica para la librería.\n\n",
+            "Fue un proyecto que surgió de una necesidad personal y terminó siendo un proyecto muy interesante y útil."
+        ],
+        "image": "./projects/wiz-light-manager.png",
+        "links": [
+            { "name": "Github", "link": "https://github.com/jlannoo/wiz-lights-manager" }
+        ],
+        "responsibilities": [
+            "Investigación sobre APIs UDP y MQTT",
+            "Diseño y desarrollo de la librería de Typescript",
+            "Diseño y desarrollo de la aplicación de Electron"
+        ]
+    },
+
+
     "Solucionadores": {
         "title": "WD-40 Club de Solucionadores",
         "summary": "Red social / blog comunitario, desarrollado en Next.JS para WD-40 LATAM.",

@@ -10,13 +10,15 @@ export default function Projects() {
 	const { t: tProjects } = useTranslation('projects');
 
 	const projects: ProjectType[] = [
+		tProjects('John Deere - Ana', { returnObjects: true }),
+		tProjects('Wiz Light Manager', { returnObjects: true }),
 		tProjects('Solucionadores', { returnObjects: true }),
 		tProjects('SistemaAenima', { returnObjects: true }),
 		tProjects('CanvasASCII', { returnObjects: true }),
-		tProjects('PixelChat', { returnObjects: true }),
+		// tProjects('PixelChat', { returnObjects: true }),
 		tProjects('EzReachFlexitapa', { returnObjects: true }),
 		tProjects('SvelteQ&A', { returnObjects: true }),
-		tProjects('Formlic', { returnObjects: true }),
+		// tProjects('Formlic', { returnObjects: true }),
 		tProjects('IntegralsCheatsheet', { returnObjects: true }),
 	];
 

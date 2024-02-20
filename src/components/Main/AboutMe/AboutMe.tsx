@@ -10,9 +10,7 @@ export default function AboutMe() {
 		<section className={css.AboutMe} id="about">
 			<h2 className={css.Title}>{t('about_me_title')}</h2>
 			<div className={css.Text}>
-				<p>{t('about_me_body_1')}</p>
-				<p>{t('about_me_body_2')}</p>
-				<p>{t('about_me_body_3')}</p>
+				<p style={{ whiteSpace: 'pre-wrap' }}>{t('about_me_body')}</p>
 			</div>
 			<Clients />
 		</section>

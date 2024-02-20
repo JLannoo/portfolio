@@ -1,4 +1,47 @@
 {
+    "John Deere - Ana": {
+        "title": "John Deere - Ana",
+        "summary": "Augmented Reality experience with John Deere's virtual assistant",
+        "description": [
+            "This project is an augmented reality experience for the launch of John Deere's virtual assistant.\n\n",
+            "The experience consists of a web application that allowed users to interact with John Deere's virtual assistant, Ana, in an augmented reality environment.\n\n",
+            "The app was developed with Three.JS and Javascript's WebXR API.\n\n",
+            "It was a very interesting project, and it led me to research a lot about the API and the inner workings of WebXR and the web browser (I ended up reading Chromium's source code 😬).\n\n",
+            "I even wrote a couple of articles about problems that came up in this project. You can read them in my Medium profile."
+        ],
+        "image": "./projects/johndeere-ana.png",
+        "links": [
+            { "name": "Website", "link": "https://avatardigital.deere.com/" }
+        ],
+        "responsibilities": [
+            "Design and development of the web application (Three.JS)",
+            "Research and development of the augmented reality experience (WebXR)",
+            "Application documentation (JSDoc)"
+        ]
+    },
+
+    "Wiz Light Manager": {
+        "title": "Wiz Lights Manager",
+        "summary": "Typescript library and Electron application to manage Wiz smart lights.",
+        "description": [
+            "Wiz Light Manager is a Typescript library and an Electron application to manage Wiz smart lights through a UDP API that each light hosts.\n\n",
+            "It's a project that I started in Rust, but due to my lack of experience in Rust, I decided to change to Typescript.\n\n",
+            "The Typescript library is an API to interact with Wiz lights.\n",
+            "It allows you to discover lights in the local network, change their color, brightness, color temperature, etc.\n\n",
+            "The Electron application is a graphical interface for the library.\n\n",
+            "It was a project that arose from a personal need and ended up being a very interesting and useful project."
+        ],
+        "image": "./projects/wiz-light-manager.png",
+        "links": [
+            { "name": "Github", "link": "https://github.com/jlannoo/wiz-lights-manager" }
+        ],
+        "responsibilities": [
+            "UDP API and MQTT research",
+            "Design and development of a Typescript library",
+            "Design and development of an Electron application"
+        ]
+    },
+
     "Solucionadores": {
         "title": "WD-40 Club de Solucionadores",
         "summary": "Social media platform / community blog, developed in Next.JS for WD-40 LATAM.",
