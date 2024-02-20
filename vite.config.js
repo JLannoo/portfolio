@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import pluginReact from '@vitejs/plugin-react';
 import svgrPlugin from 'vite-plugin-svgr';
+import tsConfigPaths from 'vite-tsconfig-paths';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -16,6 +17,7 @@ export default defineConfig({
 		open: true,
 	},
 	plugins: [
+		tsConfigPaths(),
 		pluginReact(),
 		svgrPlugin({
 			svgrOptions: {

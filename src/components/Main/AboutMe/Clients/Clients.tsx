@@ -10,7 +10,7 @@ export default function Clients() {
 
 	const clients: Client[] = [
 		{
-			name: 'WD40',
+			name: 'WD-40',
 			image: './clients/wd40.png',
 			link: 'https://www.wd40.com/',
 		},
