@@ -69,7 +69,7 @@
 
     "SistemaAenima": {
         "title": "SistemaAenima",
-        "summary": "Rehacer el frontend y mejorar backend de sistema interno de gestión de presupuestos.",
+        "summary": "Rehacer el frontend y refactorización completa del backend del sistema interno de gestión de presupuestos de la empresa.",
         "description": [
             "En este proyecto rehicimos el frontend del sistema interno de gestión de presupuesto de la empresa y mejoramos su backend.\n\n",
             "El sistema original estaba hecho en Angular.JS, era lento y difícil de mantener. Además, aproximadamente la mitad no funcionaba como debía.\n\n",

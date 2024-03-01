@@ -68,7 +68,7 @@
 
     "SistemaAenima": {
         "title": "SistemaAenima",
-        "summary": "Remaking of internal budget management system's front end and backend improvement.",
+        "summary": "Remaking of internal budget management system's front end and backend complete refactor and improvements.",
         "description": [
             "This project was a remaking of an internal budget management system's front end and the improvements on the backend.\n\n",
             "The original system was made in AngularJS and was very slow and hard to maintain. On top of that, half of it was not even working properly.\n\n",
