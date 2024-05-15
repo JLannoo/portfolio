@@ -13,6 +13,7 @@ export default function Projects() {
 		tProjects('SistemaAenima', { returnObjects: true }),
 		tProjects('Wiz Light Manager', { returnObjects: true }),
 		tProjects('CanvasASCII', { returnObjects: true }),
+		tProjects('GameOfLife', { returnObjects: true }),
 		tProjects('Solucionadores', { returnObjects: true }),
 		tProjects('John Deere - Ana', { returnObjects: true }),
 		tProjects('EzReachFlexitapa', { returnObjects: true }),
