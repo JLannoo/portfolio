@@ -87,6 +87,26 @@
         ]
     },
 
+    "GameOfLife": {
+        "title": "⬢⬡ Game of Life ⬡⬢",
+        "summary": "Conway's Game of Life implementation in Typescript and p5.js. With hexagons ⬡⬢!",
+        "description": [
+            "Conway's Game of Life implementation in Typescript and p5.js.\n\n",
+            "I decided to make it with hexagons instead of squares because I thought it was more visually interesting.\n",
+            "Also because I had already made an implementation with squares in the past.\n\n",
+            "It was a fun project and it allowed me to learn about hexagonal coordinates and how to implement a game of life with them."
+        ],
+        "image": "./projects/hexagonal-game-of-life.png",
+        "links": [
+            { "name": "Github", "link": "https://www.github.com/jlannoo/hexagonal-game-of-life" },
+            { "name": "Website", "link": "https://jlannoo.github.io/Hexagonal-Game-of-Life" }
+        ],
+        "responsibilities": [
+            "Frontend development (Typescript, p5.js)",
+            "Frontend design",
+            "Hexagonal coordinates research"
+        ]
+    },
 
     "PixelChat": {
         "title": "PixelChat",
