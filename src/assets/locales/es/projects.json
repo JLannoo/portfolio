@@ -109,6 +109,26 @@
         ]
     },
 
+    "Rollies": {
+        "title": "Rollies | Roll your dice",
+        "summary": "Un analizador de sintaxis y sitio de lanzamiento de dados en Typescript.",
+        "description": [
+            "Un lanzador de dados construido desde cero en Typescript.\n",
+            "Basado en la sintaxis de DiceParser y el libro Write An Interpreter In Go de Thorsten Ball.\n\n",
+            "Construir un lexer, parser y evaluador desde cero era algo que quería hacer desde hacía tiempo.\n",
+            "Conocía la teoría detrás de ello, pero nunca lo había implementado yo mismo.\n\n",
+            "Fue una gran experiencia de aprendizaje y un proyecto divertido de hacer."
+        ],
+        "image": "./projects/rollies.png",
+        "links": [
+            { "name": "Github", "link": "https://www.github.com/jlannoo/rollies" },
+            { "name": "Website", "link": "https://rollies.jlannoo.dev" }
+        ],
+        "responsibilities": [
+            "Desarrollo frontend (Typescript)",
+            "Implementación de lexer, parser y evaluador"
+        ]
+    },
 
     "PixelChat": {
         "title": "PixelChat",

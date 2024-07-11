@@ -108,6 +108,27 @@
         ]
     },
 
+    "Rollies": {
+        "title": "Rollies | Roll your dice",
+        "summary": "A dice roller syntax parser and site made in Typescript.",
+        "description": [
+            "A dice roller built from the ground up in Typescript.\n",
+            "Based on the DiceParser syntax and the Write An Interpreter In Go book by Thorsten Ball.\n\n",
+            "Building a lexer, parser and evaluator from scratch was something I wanted to do for a long time.\n",
+            "I knew the theory behind it, but I had never implemented it myself.\n\n",
+            "It was a great learning experience and a fun project to make."
+        ],
+        "image": "./projects/rollies.png",
+        "links": [
+            { "name": "Github", "link": "https://www.github.com/jlannoo/rollies" },
+            { "name": "Website", "link": "https://rollies.jlannoo.dev" }
+        ],
+        "responsibilities": [
+            "Frontend development (Typescript)",
+            "Lexer, parser and evaluator implementation"
+        ]
+    },
+
     "PixelChat": {
         "title": "PixelChat",
         "summary": "Live public chat and drawing with pixels along with other people!.",

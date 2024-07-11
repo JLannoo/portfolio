@@ -12,6 +12,7 @@ export default function Projects() {
 	const projects: ProjectType[] = [
 		tProjects('SistemaAenima', { returnObjects: true }),
 		tProjects('Wiz Light Manager', { returnObjects: true }),
+		tProjects('Rollies', { returnObjects: true }),
 		tProjects('CanvasASCII', { returnObjects: true }),
 		tProjects('GameOfLife', { returnObjects: true }),
 		tProjects('Solucionadores', { returnObjects: true }),
